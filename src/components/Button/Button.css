@@ -28,23 +28,17 @@ button{
     border: #FFC600;
 }
 .button-success{
-    background-color: green;
-    border: green;
+    background-color: #FFC600;
+    border: #FFC600;
+}
+.button-success:hover{
+    background-color: #0AD00A;
+    border: #0AD00A;
 }
 
 .button-large {
     padding: 10px 50px;
 }
-
-.button-large:hover{
-    background-color: white;
-}
-
-
-.button.lighter{
-    filter: brightness(85%);
-    }
-
 
 
  
