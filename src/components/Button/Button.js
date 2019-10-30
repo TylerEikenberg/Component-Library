@@ -11,12 +11,6 @@ const Button = props => {
   if (props.large) {
     classList += ` button-large`;
   }
-  if (props.hover) {
-    classList += ` button:hover`;
-  }
-  if (props.lighter) {
-    classList += ` button.lighter`;
-  }
 
   return <button className={classList}>{props.label}</button>;
 };

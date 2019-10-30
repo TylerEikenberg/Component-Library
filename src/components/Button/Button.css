@@ -20,9 +20,12 @@ button{
     border:#FF4252;
 }
 .button-warning{
-    background-color: orange;
-    border: orange;
-    color: black;
+    background-color: #0AD00A;
+    border: #0AD00A;
+}
+.button-warning:hover{
+    background-color: #FFC600;
+    border: #FFC600;
 }
 .button-success{
     background-color: green;
