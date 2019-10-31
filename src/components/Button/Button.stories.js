@@ -116,8 +116,12 @@ storiesOf("Button", module)
    */
   /* Add To Cart Buttons */
   .add("Add To Cart", () => <Button label="Add To Cart" type="cart" />)
+  .add("Add To Cart No Text", () => <Button type="cart-notext" notext />)
   /** 
   /* Add To Favorites Buttons */
   .add("Add To Favorites", () => (
     <Button label="Add To Favorites" type="favorites" />
+  ))
+  .add("Add To Favorites No Text", () => (
+    <Button type="favorites-notext" notext />
   ));

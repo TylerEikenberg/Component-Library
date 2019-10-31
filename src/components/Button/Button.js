@@ -21,13 +21,18 @@ const Button = props => {
     "warning-opacity",
     "default-opacity",
     "cart",
-    "favorites"
+    "cart-notext",
+    "favorites",
+    "favorites-notext"
   ];
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`;
   }
   if (props.large) {
     classList += ` button-large`;
+  }
+  if (props.notext) {
+    classList += ` button-notext`;
   }
 
   return <button className={classList}>{props.label}</button>;
