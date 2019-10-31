@@ -1,9 +1,9 @@
-import React from "react";
-import "./Forms.css";
+import React from 'react';
+import './Forms.css';
 
 const Form = props => {
-  let classList = "";
-  let types = ["email"];
+  let classList = '';
+  let types = ['email'];
   if (types.includes(props.type)) {
     classList += ` form-${props.type}`;
   }
