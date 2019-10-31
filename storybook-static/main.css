@@ -1,0 +1,216 @@
+
+button{
+    border-radius: 3px;
+    padding: 5px 25px;
+    color: white;
+    background-color: #22262A;
+    padding: 12px 25px;
+    border: 1.3px solid  #22262A;
+}
+.button-large {
+    padding: 15px 30px !important;
+}
+.button-colorless {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1.3px solid;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+
+.button-primary{
+    background-color: #33A0FF;
+    padding: 12px 25px;
+    border: 1.3px solid #33A0FF;
+}
+.button-primary:hover{
+    background-color: #2E90E5;
+    border: #2E90E5;
+}
+
+.button-primary-opacity {
+    background-color: rgba(234, 242, 253, 0.858);
+    color: #33A0FF;
+    padding: 12px 25px;
+    border: #33A0FF;
+}
+
+
+
+
+.button-danger{
+    background-color: #FF4858;
+    padding: 12px 25px;
+    border: 1.3px solid  #FF4858;
+}
+.button-danger:hover{
+    background-color:#FF4252;
+    border:#FF4252;
+}
+.button-danger-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #FF4858;
+    border: 1.3px solid #FF4858;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-danger-opacity {
+    background-color: rgba(255, 72, 87, 0.139);
+    color: #FF4858;
+    padding: 12px 25px;
+    border: #FF4858;
+}
+
+
+
+
+.button-warning{
+    background-color: #FFC600;
+    padding: 12px 25px;
+    border: 1.3px solid  #FFC600;
+}
+.button-warning:hover{
+    background-color: #EBB600;
+    border: #EBB600;
+}
+.button-warning-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFC600;
+    border: 1.3px solid #FFC600;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-warning-opacity {
+    background-color: rgba(10, 208, 10, 0.125);
+    color: #FFC600;
+    padding: 12px 25px;
+    border: #FFC600;
+}
+
+
+
+
+.button-success{
+    background-color: #0AD00A;
+    padding: 12px 25px;
+    border: 1.3px solid  #0AD00A;
+}
+.button-success:hover{
+    background-color: #07C107;
+    border: #07C107;
+}
+.button-success-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #0AD00A;
+    border: 1.3px solid #0AD00A;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-success-opacity {
+    background-color: rgba(10, 208, 10, 0.166);
+    color: #0AD00A;
+    padding: 12px 25px;
+    border: #0AD00A;
+}
+
+
+
+
+.button-default{
+    background-color: #22262A;
+    padding: 12px 25px;
+    border: 1.3px solid  #22262A;
+}
+.button-default:hover{
+    background-color: #13161A;
+    border: #13161A;
+}
+.button-default-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #22262A;
+    border: 1.3px solid #22262A;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-default-opacity {
+    background-color: rgba(34, 38, 42, 0.071);
+    color: #22262A;
+    padding: 12px 25px;
+    border: #22262A;
+}
+
+
+.button-cart{
+    position: absolute;
+    background-color: rgba(234, 242, 253, 0.858);
+    background-image: url(static/media/cart_2.f061aae4.svg);
+    background-position-x: 6px;
+    background-position-y: 11px;
+    background-repeat: no-repeat;
+    color: #33A0FF;
+    padding: 12px 25px;
+    border: #33A0FF;
+}
+.button-cart-notext{
+    position: absolute;
+    background-color: rgba(234, 242, 253, 0.858);
+    background-image: url(static/media/cart_2.f061aae4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #33A0FF;
+    padding: 20px 20px;
+    border: #33A0FF;
+}
+.button-favorites{
+    position: absolute;
+    background-color: rgba(234, 242, 253, 0.858);
+    background-image: url(static/media/hearts-1.cce5b434.svg);
+    background-position-x: 6px;
+    background-position-y: 12px;
+    background-repeat: no-repeat;
+    color: #33A0FF;
+    padding: 12px 25px;
+    border: #33A0FF;
+}
+.button-favorites-notext{
+    position: absolute;
+    background-color: rgba(234, 242, 253, 0.858);
+    background-image: url(static/media/hearts-1.cce5b434.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #33A0FF;
+    padding: 20px 20px;
+    border: #33A0FF;
+}
+
+label{
+    padding-top: 100px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    bottom: 38px;
+}
+form{
+    margin-top: 50px;
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+input{
+    color: #26262609;
+    font-size: 14px;
+    border: 2px solid #F1F3F4;
+    border-radius: 3px;
+    width: 300px;
+    height: 22px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.form-large{
+    
+}
+
+/*# sourceMappingURL=main.css.map*/
