@@ -19,7 +19,9 @@ const Button = props => {
     "danger-opacity",
     "success-opacity",
     "warning-opacity",
-    "default-opacity"
+    "default-opacity",
+    "cart",
+    "favorites"
   ];
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`;

@@ -1,3 +1,4 @@
+
 button{
     border-radius: 3px;
     padding: 5px 25px;
@@ -135,4 +136,26 @@ button{
     border: #22262A;
 }
 
- 
+
+.button-cart{
+    position: absolute;
+    background-color: rgba(234, 242, 253, 0.858);
+    background-image: url('assets/cart_2.svg');
+    background-position-x: 6px;
+    background-position-y: 11px;
+    background-repeat: no-repeat;
+    color: #33A0FF;
+    padding: 12px 25px;
+    border: #33A0FF;
+}
+.button-favorites{
+    position: absolute;
+    background-color: rgba(234, 242, 253, 0.858);
+    background-image: url('assets/hearts-1.svg');
+    background-position-x: 6px;
+    background-position-y: 12px;
+    background-repeat: no-repeat;
+    color: #33A0FF;
+    padding: 12px 25px;
+    border: #33A0FF;
+}

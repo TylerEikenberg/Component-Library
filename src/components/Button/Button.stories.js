@@ -1,6 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-
+import cart from "./assets/cart_2.svg";
 import Button from "./Button";
 
 storiesOf("Button", module)
@@ -108,4 +108,16 @@ storiesOf("Button", module)
   ))
   .add("Default Opaque Large", () => (
     <Button label="Do Something" type="default-opacity" large />
+  ))
+  /**
+   *
+   *
+   *
+   */
+  /* Add To Cart Buttons */
+  .add("Add To Cart", () => <Button label="Add To Cart" type="cart" />)
+  /** 
+  /* Add To Favorites Buttons */
+  .add("Add To Favorites", () => (
+    <Button label="Add To Favorites" type="favorites" />
   ));
