@@ -10,10 +10,10 @@ storiesOf("Button", module)
     <Button label="Do Something" type="primary" large />
   ))
   .add("Primary Border", () => (
-    <Button label="Do Something" type="primary-colorless" />
+    <Button label="Do Something" type="primary" colorless />
   ))
   .add("Primary Border Large", () => (
-    <Button label="Do Something" type="primary-colorless" large />
+    <Button label="Do Something" type="primary" colorless large />
   ))
   .add("Primary Opaque", () => (
     <Button label="Do Something" type="primary-opacity" />
@@ -32,10 +32,10 @@ storiesOf("Button", module)
     <Button label="Do Something" type="danger" large />
   ))
   .add("Danger Border", () => (
-    <Button label="Do Something" type="danger-colorless" />
+    <Button label="Do Something" type="danger" colorless />
   ))
   .add("Danger Border Large", () => (
-    <Button label="Do Something" type="danger-colorless" large />
+    <Button label="Do Something" type="danger" colorless large />
   ))
   .add("Danger Opaque", () => (
     <Button label="Do Something" type="danger-opacity" />
@@ -54,10 +54,10 @@ storiesOf("Button", module)
     <Button label="Do Something" type="warning" large />
   ))
   .add("Warning Border", () => (
-    <Button label="Do Something" type="warning-colorless" />
+    <Button label="Do Something" type="warning" colorless />
   ))
   .add("Warning Border Large", () => (
-    <Button label="Do Something" type="warning-colorless" large />
+    <Button label="Do Something" type="warning" colorless large />
   ))
   .add("Warning Opaque", () => (
     <Button label="Do Something" type="warning-opacity" />
@@ -76,10 +76,10 @@ storiesOf("Button", module)
     <Button label="Do Something" type="success" large />
   ))
   .add("Success Border", () => (
-    <Button label="Do Something" type="success-colorless" />
+    <Button label="Do Something" type="success" colorless />
   ))
   .add("Success Border Large", () => (
-    <Button label="Do Something" type="success-colorless" large />
+    <Button label="Do Something" type="success" colorless large />
   ))
   .add("Success Opaque", () => (
     <Button label="Do Something" type="success-opacity" />
@@ -93,15 +93,11 @@ storiesOf("Button", module)
    *
    */
   /* Default Buttons */
-  .add("Default", () => <Button label="Do Something" type="default" />)
-  .add("Large Default", () => (
-    <Button label="Do Something" type="default" large />
-  ))
-  .add("Default Border", () => (
-    <Button label="Do Something" type="default-colorless" />
-  ))
+  .add("Default", () => <Button label="Do Something" />)
+  .add("Large Default", () => <Button label="Do Something" large />)
+  .add("Default Border", () => <Button label="Do Something" colorless />)
   .add("Default Border Large", () => (
-    <Button label="Do Something" type="default-colorless" large />
+    <Button label="Do Something" colorless large />
   ))
   .add("Default Opaque", () => (
     <Button label="Do Something" type="default-opacity" />
@@ -115,7 +111,7 @@ storiesOf("Button", module)
    *
    */
   /* Add To Cart Buttons */
-  .add("Add To Cart", () => <Button label="Add To Cart" type="cart" />)
+  .add("Add To Cart", () => <Button label="Add To Cart" type="cart" cart />)
   .add("Add To Cart No Text", () => <Button type="cart-notext" notext />)
   /** 
   /* Add To Favorites Buttons */
@@ -125,3 +121,9 @@ storiesOf("Button", module)
   .add("Add To Favorites No Text", () => (
     <Button type="favorites-notext" notext />
   ));
+/**
+ *
+ *
+ *
+ */
+/* Email Forms */

@@ -3,28 +3,30 @@ button{
     border-radius: 3px;
     padding: 5px 25px;
     color: white;
+    background-color: #22262A;
+    padding: 12px 25px;
+    border: 1.3px solid  #22262A;
 }
 .button-large {
     padding: 15px 30px !important;
 }
-
+.button-colorless {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1.3px solid;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
 
 .button-primary{
     background-color: #33A0FF;
     padding: 12px 25px;
-    border: #33A0FF;
+    border: 1.3px solid #33A0FF;
 }
 .button-primary:hover{
     background-color: #2E90E5;
     border: #2E90E5;
 }
-.button-primary-colorless {
-    background-color: rgba(255, 255, 255, 0);
-    color: #33A0FF;
-    border: 1.3px solid #33A0FF;
-    padding: 10px 23px;
-    border-radius: 3px;
-}
+
 .button-primary-opacity {
     background-color: rgba(234, 242, 253, 0.858);
     color: #33A0FF;
@@ -38,7 +40,7 @@ button{
 .button-danger{
     background-color: #FF4858;
     padding: 12px 25px;
-    border: #FF4858;
+    border: 1.3px solid  #FF4858;
 }
 .button-danger:hover{
     background-color:#FF4252;
@@ -64,7 +66,7 @@ button{
 .button-warning{
     background-color: #FFC600;
     padding: 12px 25px;
-    border: #FFC600;
+    border: 1.3px solid  #FFC600;
 }
 .button-warning:hover{
     background-color: #EBB600;
@@ -90,7 +92,7 @@ button{
 .button-success{
     background-color: #0AD00A;
     padding: 12px 25px;
-    border: #0AD00A;
+    border: 1.3px solid  #0AD00A;
 }
 .button-success:hover{
     background-color: #07C107;
@@ -116,7 +118,7 @@ button{
 .button-default{
     background-color: #22262A;
     padding: 12px 25px;
-    border: #22262A;
+    border: 1.3px solid  #22262A;
 }
 .button-default:hover{
     background-color: #13161A;

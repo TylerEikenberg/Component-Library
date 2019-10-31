@@ -10,11 +10,6 @@ const Button = props => {
     "success",
     "warning",
     "default",
-    "primary-colorless",
-    "danger-colorless",
-    "success-colorless",
-    "warning-colorless",
-    "default-colorless",
     "primary-opacity",
     "danger-opacity",
     "success-opacity",
@@ -33,6 +28,9 @@ const Button = props => {
   }
   if (props.notext) {
     classList += ` button-notext`;
+  }
+  if (props.colorless) {
+    classList += ` button-colorless`;
   }
 
   return <button className={classList}>{props.label}</button>;
