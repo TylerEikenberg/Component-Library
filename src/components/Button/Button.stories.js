@@ -12,6 +12,12 @@ storiesOf("Button", module)
   .add("Primary Border", () => (
     <Button label="Do Something" type="primary-colorless" />
   ))
+  .add("Primary Border Large", () => (
+    <Button label="Do Something" type="primary-colorless" large />
+  ))
+  .add("Primary Opaque", () => (
+    <Button label="Do Something" type="primary-opacity" />
+  ))
   /**
    *
    *
@@ -24,6 +30,9 @@ storiesOf("Button", module)
   ))
   .add("Danger Border", () => (
     <Button label="Do Something" type="danger-colorless" />
+  ))
+  .add("Danger Border Large", () => (
+    <Button label="Do Something" type="danger-colorless" large />
   ))
   /**
    *
@@ -38,6 +47,9 @@ storiesOf("Button", module)
   .add("Warning Border", () => (
     <Button label="Do Something" type="warning-colorless" />
   ))
+  .add("Warning Border Large", () => (
+    <Button label="Do Something" type="warning-colorless" large />
+  ))
   /**
    *
    *
@@ -51,6 +63,9 @@ storiesOf("Button", module)
   .add("Success Border", () => (
     <Button label="Do Something" type="success-colorless" />
   ))
+  .add("Success Border Large", () => (
+    <Button label="Do Something" type="success-colorless" large />
+  ))
   /**
    *
    *
@@ -63,4 +78,7 @@ storiesOf("Button", module)
   ))
   .add("Default Border", () => (
     <Button label="Do Something" type="default-colorless" />
+  ))
+  .add("Default Border Large", () => (
+    <Button label="Do Something" type="default-colorless" large />
   ));

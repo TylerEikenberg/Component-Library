@@ -14,7 +14,12 @@ const Button = props => {
     "danger-colorless",
     "success-colorless",
     "warning-colorless",
-    "default-colorless"
+    "default-colorless",
+    "primary-opacity",
+    "danger-opacity",
+    "success-opacity",
+    "warning-opacity",
+    "default-opacity"
   ];
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`;
