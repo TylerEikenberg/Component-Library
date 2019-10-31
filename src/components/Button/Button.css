@@ -61,33 +61,39 @@ button{
 
 
 .button-warning{
-    background-color: #0AD00A;
+    background-color: #FFC600;
     padding: 12px 25px;
-    border: #0AD00A;
+    border: #FFC600;
 }
 .button-warning:hover{
-    background-color: #FFC600;
-    border: #FFC600;
+    background-color: #EBB600;
+    border: #EBB600;
 }
 .button-warning-colorless {
     background-color: rgba(255, 255, 255, 0);
-    color: #0AD00A;
-    border: 1.3px solid #0AD00A;
+    color: #FFC600;
+    border: 1.3px solid #FFC600;
     padding: 10px 23px;
     border-radius: 3px;
+}
+.button-warning-opacity {
+    background-color: rgba(10, 208, 10, 0.125);
+    color: #FFC600;
+    padding: 12px 25px;
+    border: #FFC600;
 }
 
 
 
 
 .button-success{
-    background-color: #FFC600;
+    background-color: #0AD00A;
     padding: 12px 25px;
-    border: #FFC600;
+    border: #0AD00A;
 }
 .button-success:hover{
-    background-color: #0AD00A;
-    border: #0AD00A;
+    background-color: #07C107;
+    border: #07C107;
 }
 .button-success-colorless {
     background-color: rgba(255, 255, 255, 0);
@@ -95,6 +101,12 @@ button{
     border: 1.3px solid #0AD00A;
     padding: 10px 23px;
     border-radius: 3px;
+}
+.button-success-opacity {
+    background-color: rgba(10, 208, 10, 0.166);
+    color: #0AD00A;
+    padding: 12px 25px;
+    border: #0AD00A;
 }
 
 
@@ -115,6 +127,12 @@ button{
     border: 1.3px solid #22262A;
     padding: 10px 23px;
     border-radius: 3px;
+}
+.button-default-opacity {
+    background-color: rgba(34, 38, 42, 0.071);
+    color: #22262A;
+    padding: 12px 25px;
+    border: #22262A;
 }
 
  
