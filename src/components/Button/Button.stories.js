@@ -34,6 +34,9 @@ storiesOf("Button", module)
   .add("Danger Border Large", () => (
     <Button label="Do Something" type="danger-colorless" large />
   ))
+  .add("Danger Opaque", () => (
+    <Button label="Do Something" type="danger-opacity" />
+  ))
   /**
    *
    *
