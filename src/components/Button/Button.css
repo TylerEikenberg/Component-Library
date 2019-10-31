@@ -1,10 +1,11 @@
 button{
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 5px 25px;
     color: white;
 }
 .button-primary{
     background-color: #33A0FF;
+    padding: 12px 25px;
     border: #33A0FF;
 }
 .button-primary:hover{
@@ -13,6 +14,7 @@ button{
 }
 .button-danger{
     background-color: #FF4858;
+    padding: 12px 25px;
     border: #FF4858;
 }
 .button-danger:hover{
@@ -21,6 +23,7 @@ button{
 }
 .button-warning{
     background-color: #0AD00A;
+    padding: 12px 25px;
     border: #0AD00A;
 }
 .button-warning:hover{
@@ -29,16 +32,60 @@ button{
 }
 .button-success{
     background-color: #FFC600;
+    padding: 12px 25px;
     border: #FFC600;
 }
 .button-success:hover{
     background-color: #0AD00A;
     border: #0AD00A;
 }
-
-.button-large {
-    padding: 10px 50px;
+.button-default{
+    background-color: #22262A;
+    padding: 12px 25px;
+    border: #22262A;
+}
+.button-default:hover{
+    background-color: #13161A;
+    border: #13161A;
 }
 
+.button-large {
+    padding: 15px 30px;
+}
+.button-primary-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #33A0FF;
+    border: 1.3px solid #33A0FF;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-danger-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #FF4858;
+    border: 1.3px solid #FF4858;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-warning-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #0AD00A;
+    border: 1.3px solid #0AD00A;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-success-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #0AD00A;
+    border: 1.3px solid #0AD00A;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
+.button-default-colorless {
+    background-color: rgba(255, 255, 255, 0);
+    color: #22262A;
+    border: 1.3px solid #22262A;
+    padding: 10px 23px;
+    border-radius: 3px;
+}
 
  
