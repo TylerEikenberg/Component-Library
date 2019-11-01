@@ -113,3 +113,9 @@ div{
     width: 280px;
     height: 55px;
 }
+.form-Select-opaque{
+    background: #FAFAFB;
+    background-image: url('../assets/arrowdown.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}

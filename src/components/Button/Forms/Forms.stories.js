@@ -33,6 +33,13 @@ storiesOf("Forms", module)
   .add("Select Extra Large", () => (
     <Forms type="Select" text="Select" extralarge />
   ))
+  .add("Select Opaque", () => <Forms type="Select" text="Select" opaque />)
+  .add("Select Opaque Large", () => (
+    <Forms type="Select" text="Select" opaque large />
+  ))
+  .add("Select Opaque Extra Large", () => (
+    <Forms type="Select" text="Select" opaque extralarge />
+  ))
   /*
    *
    *

@@ -28,6 +28,9 @@ const Form = props => {
   if (props.extralarge && props.type === "Select") {
     classList += ` form-Select-extra-large`;
   }
+  if (props.opaque && props.type === "Select") {
+    classList += ` form-Select-opaque`;
+  }
 
   if (props.type === "Email") {
     return (
