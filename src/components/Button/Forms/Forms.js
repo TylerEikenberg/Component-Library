@@ -22,6 +22,12 @@ const Form = props => {
   if (props.blue) {
     classList += ` Checkbox-blue`;
   }
+  if (props.large && props.type === "Select") {
+    classList += ` form-Select-large`;
+  }
+  if (props.extralarge && props.type === "Select") {
+    classList += ` form-Select-extra-large`;
+  }
 
   if (props.type === "Email") {
     return (

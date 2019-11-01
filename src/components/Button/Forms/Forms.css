@@ -99,8 +99,17 @@ div{
     border: 2px solid #F1F3F4;
     border-radius: 2px;
     background: none;
-    padding: 5px;
+    padding: 6px;
     background-image: url('../assets/arrowdown.svg');
     background-repeat: no-repeat;
     background-position: right 10px center;
+    font-size: 14px;
+}
+.form-Select-large{
+    width: 280px;
+    height: 45px;
+}
+.form-Select-extra-large{
+    width: 280px;
+    height: 55px;
 }
