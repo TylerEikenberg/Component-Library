@@ -52,7 +52,10 @@ storiesOf("Forms", module)
    *
    *
    * Item Thumbnails */
-  .add("Thumbnail", () => <Thumbnail />);
+  .add("Thumbnail", () => <Thumbnail type="Thumbnail" />)
+  .add("Thumbnail Opaque Background", () => (
+    <Thumbnail type="Thumbnail" opaquebg />
+  ));
 //
 //
 //end

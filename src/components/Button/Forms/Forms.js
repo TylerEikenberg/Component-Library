@@ -1,9 +1,10 @@
 import React from "react";
 import "./Forms.css";
+import Thumbnail from "./Thumbnail";
 
 const Form = props => {
   let classList = "";
-  let types = ["Email", "Voucher", "Checkbox", "Select"];
+  let types = ["Email", "Voucher", "Checkbox", "Select", "Thumbnail"];
   if (types.includes(props.type)) {
     classList += ` form-${props.type}`;
   }
@@ -30,6 +31,9 @@ const Form = props => {
   }
   if (props.opaque && props.type === "Select") {
     classList += ` form-Select-opaque`;
+  }
+  if (props.opaquebg) {
+    classList += ` opaque-background`;
   }
 
   if (props.type === "Email") {
@@ -78,6 +82,8 @@ const Form = props => {
         </select>
       </div>
     );
+  } else if (props.type === "Thumbnail") {
+    return <Thumbnail className={classList} />;
   }
 };
 
