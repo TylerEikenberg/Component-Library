@@ -27,7 +27,7 @@ storiesOf("Forms", module)
    *
    *
    * Select Forms */
-  .add("Select", () => <Forms type="Select" />);
+  .add("Select", () => <Forms type="Select" text="Select" />);
 //
 //
 //end

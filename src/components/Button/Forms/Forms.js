@@ -65,7 +65,7 @@ const Form = props => {
     return (
       <div>
         <select className={classList}>
-          <option value="selection">selection</option>
+          <option value="selection">{props.text}</option>
         </select>
       </div>
     );
