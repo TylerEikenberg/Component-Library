@@ -3,7 +3,7 @@ import "./Forms.css";
 
 const Form = props => {
   let classList = "";
-  let types = ["Email", "Voucher", "Checkbox"];
+  let types = ["Email", "Voucher", "Checkbox", "Select"];
   if (types.includes(props.type)) {
     classList += ` form-${props.type}`;
   }
@@ -59,6 +59,14 @@ const Form = props => {
             onChange={console.log("hi")}
           ></input>
         </span>
+      </div>
+    );
+  } else if (props.type === "Select") {
+    return (
+      <div>
+        <select className={classList}>
+          <option value="selection">selection</option>
+        </select>
       </div>
     );
   }

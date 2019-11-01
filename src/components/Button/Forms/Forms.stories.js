@@ -21,7 +21,13 @@ storiesOf("Forms", module)
    * Check Boxes */
   .add("Checkbox", () => <Forms type="Checkbox" />)
   .add("Checkbox Label", () => <Forms type="Checkbox" label="Label" />)
-  .add("Checkbox Blue", () => <Forms type="Checkbox" blue />);
+  .add("Checkbox Blue", () => <Forms type="Checkbox" blue />)
+  /*
+   *
+   *
+   *
+   * Select Forms */
+  .add("Select", () => <Forms type="Select" />);
 //
 //
 //end
