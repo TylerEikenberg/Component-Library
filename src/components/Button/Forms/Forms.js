@@ -10,10 +10,13 @@ const Form = props => {
   if (props.large) {
     classList += ` form-large`;
   }
+  if (props.extralarge) {
+    classList += ` form-extra-large`;
+  }
   console.log(props);
   return (
     <form>
-      <label>{props.type}</label>
+      <label className={classList}>{props.type}</label>
       <input
         className={classList}
         type="text"
