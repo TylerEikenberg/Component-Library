@@ -2,15 +2,64 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 2px solid rgba(60, 68, 85, 0.16);
+    border: 2px solid rgba(60, 68, 85, 0.064);
     border-radius: 5px;
     height: 300px;
     padding: 30px;
+    cursor: pointer;
+    
 }
 .horizontal-line{
     position: absolute;
-    border: 1px solid rgba(60, 68, 85, 0.16);
+    border: 1px solid rgba(60, 68, 85, 0.064);
     height: 0.1px;
     width: 115%;
     right: -15px;
+    margin: 25px 0px 0px 0px;
+}
+.info-container{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.info-title{
+    margin-top: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.price-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 90px;
+    left: 70px;
+}
+.info-real-price{
+    color: #FF4858;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+    font-size: 16px;
+}
+.info-old-price{
+    color: #C1C8CE;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.item-hover-overlay{
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.714);
+    width: 260px;
+    height: 195px;
+    top: -20px;
+    right: -10px;
 }
