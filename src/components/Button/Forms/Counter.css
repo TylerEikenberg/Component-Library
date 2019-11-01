@@ -1,0 +1,20 @@
+.counter-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgba(246, 247, 248, 0.762);
+     width: 100px;
+}
+
+.counter-text{
+    color: black;
+}
+.counter-button{
+    background-color: rgba(246, 247, 248, 0.762);
+    border: none;
+    height: 60px;
+    color: #33A0FF;
+    font-size: 20px;
+    
+}
