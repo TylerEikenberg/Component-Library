@@ -17,12 +17,23 @@ class Thumbnail extends Component {
     console.log("hey");
     this.setState({ mouseEnter: true });
   };
+  didMouseLeave = () => {
+    console.log("hey");
+    this.setState({ mouseEnter: false });
+  };
 
   render() {
     return (
       <div className="thumbnail-container">
-        <div className="image-container" onMouseEnter={this.didMouseEnter}>
-          <div className="item-hover-overlay"></div>
+        <div
+          className="image-container"
+          onMouseEnter={this.didMouseEnter}
+          onMouseLeave={this.didMouseLeave}
+        >
+          {this.state.mouseEnter ? (
+            <div className="item-hover-overlay"></div>
+          ) : null}
+
           <img className="item-container" src={laptopimg}></img>
         </div>
         <div className="info-container">
