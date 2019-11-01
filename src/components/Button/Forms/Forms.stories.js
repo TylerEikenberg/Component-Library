@@ -2,6 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import Forms from "./Forms";
 import Counter from "./Counter";
+import Thumbnail from "./Thumbnail";
 
 storiesOf("Forms", module)
   /* Email Forms */
@@ -45,7 +46,13 @@ storiesOf("Forms", module)
    *
    *
    * Counter */
-  .add("Counter", () => <Counter />);
+  .add("Counter", () => <Counter />)
+  /*
+   *
+   *
+   *
+   * Item Thumbnails */
+  .add("Thumbnail", () => <Thumbnail />);
 //
 //
 //end
