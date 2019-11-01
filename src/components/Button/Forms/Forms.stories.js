@@ -8,5 +8,8 @@ storiesOf("Forms", module)
   .add(
     "Email Large",
     () => <Forms type="Email" large />
+    //
+    //
     //end
   );
+console.log();

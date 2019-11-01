@@ -24,7 +24,6 @@ button{
 }
 .button-primary:hover{
     background-color: #2E90E5;
-    border: #2E90E5;
 }
 
 .button-primary-opacity {
@@ -44,7 +43,6 @@ button{
 }
 .button-danger:hover{
     background-color:#FF4252;
-    border:#FF4252;
 }
 .button-danger-colorless {
     background-color: rgba(255, 255, 255, 0);
@@ -70,7 +68,6 @@ button{
 }
 .button-warning:hover{
     background-color: #EBB600;
-    border: #EBB600;
 }
 .button-warning-colorless {
     background-color: rgba(255, 255, 255, 0);
@@ -96,7 +93,6 @@ button{
 }
 .button-success:hover{
     background-color: #07C107;
-    border: #07C107;
 }
 .button-success-colorless {
     background-color: rgba(255, 255, 255, 0);
@@ -122,7 +118,6 @@ button{
 }
 .button-default:hover{
     background-color: #13161A;
-    border: #13161A;
 }
 .button-default-colorless {
     background-color: rgba(255, 255, 255, 0);

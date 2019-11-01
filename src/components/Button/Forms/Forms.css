@@ -11,8 +11,7 @@ form{
     position: relative;
     appearance: none;
 }
-input{
-    color: #26262609;
+input{  
     font-size: 14px;
     border: 2px solid #F1F3F4;
     border-radius: 3px;
