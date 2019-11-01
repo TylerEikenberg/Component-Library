@@ -13,7 +13,14 @@ storiesOf("Forms", module)
    *
    * Voucher Buttons */
   .add("Voucher", () => <Forms type="Voucher" label="Redeem" />)
-  .add("Voucher Large", () => <Forms type="Voucher" label="Redeem" large />);
+  .add("Voucher Large", () => <Forms type="Voucher" label="Redeem" large />)
+  /*
+   *
+   *
+   *
+   * Check Boxes */
+  .add("Checkbox", () => <Forms type="Checkbox" />)
+  .add("Checkbox Blue", () => <Forms type="Checkbox" blue />);
 //
 //
 //end

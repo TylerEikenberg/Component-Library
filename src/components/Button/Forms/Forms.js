@@ -3,7 +3,7 @@ import "./Forms.css";
 
 const Form = props => {
   let classList = "";
-  let types = ["Email", "Voucher"];
+  let types = ["Email", "Voucher", "Checkbox"];
   if (types.includes(props.type)) {
     classList += ` form-${props.type}`;
   }
@@ -18,6 +18,9 @@ const Form = props => {
   }
   if (props.extralarge && props.type === "Voucher") {
     classList += ` Voucher-extra-large`;
+  }
+  if (props.blue) {
+    classList += ` Checkbox-blue`;
   }
 
   if (props.type === "Email") {
@@ -45,6 +48,14 @@ const Form = props => {
           {props.label}
         </button>
       </form>
+    );
+  } else if (props.type === "Checkbox") {
+    return (
+      <input
+        type="checkbox"
+        className={classList}
+        onChange={console.log("hi")}
+      ></input>
     );
   }
 };
