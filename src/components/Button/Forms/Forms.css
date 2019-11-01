@@ -77,3 +77,18 @@ input{
     height: 20px;
     width: 20px;
 }
+div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.Label:before{
+    position: absolute;
+    content: "Don't show this popup again.";
+    font-family: sans-serif;
+    text-align: right;
+    width: 220px;
+    left: 20px;
+    top: 5px;
+}
+  

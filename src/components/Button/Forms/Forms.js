@@ -51,11 +51,15 @@ const Form = props => {
     );
   } else if (props.type === "Checkbox") {
     return (
-      <input
-        type="checkbox"
-        className={classList}
-        onChange={console.log("hi")}
-      ></input>
+      <div>
+        <span className={props.label ? props.label : null}>
+          <input
+            type="checkbox"
+            className={classList}
+            onChange={console.log("hi")}
+          ></input>
+        </span>
+      </div>
     );
   }
 };
