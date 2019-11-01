@@ -31,7 +31,12 @@ class Thumbnail extends Component {
           onMouseLeave={this.didMouseLeave}
         >
           {this.state.mouseEnter ? (
-            <div className="item-hover-overlay"></div>
+            <div className="item-hover-overlay">
+              <div className="h-c-button-container">
+                <div className="heartbutton"></div>
+                <div className="cartbutton"></div>
+              </div>
+            </div>
           ) : null}
 
           <img className="item-container" src={laptopimg}></img>
