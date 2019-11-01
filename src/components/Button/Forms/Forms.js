@@ -3,7 +3,7 @@ import "./Forms.css";
 
 const Form = props => {
   let classList = "";
-  let types = ["Email"];
+  let types = ["Email", "Voucher"];
   if (types.includes(props.type)) {
     classList += ` form-${props.type}`;
   }
@@ -13,18 +13,40 @@ const Form = props => {
   if (props.extralarge) {
     classList += ` form-extra-large`;
   }
-  console.log(props);
-  return (
-    <form>
-      <label className={classList}>{props.type}</label>
-      <input
-        className={classList}
-        type="text"
-        name="name"
-        placeholder={props.type}
-      />
-    </form>
-  );
+  if (props.large && props.type === "Voucher") {
+    classList += ` Voucher-large`;
+  }
+  if (props.extralarge && props.type === "Voucher") {
+    classList += ` Voucher-extra-large`;
+  }
+
+  if (props.type === "Email") {
+    return (
+      <form>
+        <label className={classList}>{props.type}</label>
+        <input
+          className={classList}
+          type="text"
+          name="name"
+          placeholder={props.type}
+        />
+      </form>
+    );
+  } else if (props.type === "Voucher") {
+    return (
+      <form>
+        <input
+          className={classList}
+          type="text"
+          name="name"
+          placeholder={props.type}
+        />
+        <button className={props.large ? props.label + "large" : props.label}>
+          {props.label}
+        </button>
+      </form>
+    );
+  }
 };
 
 export default Form;

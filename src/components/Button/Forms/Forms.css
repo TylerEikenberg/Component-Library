@@ -37,3 +37,27 @@ input{
     padding-top: 3px;
     padding-bottom: 4px;
 }
+.form-Voucher{
+    border: 2px solid #F1F3F4;
+    width: 200px;
+    border-radius: 2px;
+    height: 30px;
+}
+.Redeem{
+    background-color: #33A0FF;
+    border: 2px solid #33A0FF;
+    border-radius: 0px 5px 5px 0px;
+    height: 42px;
+}
+.Voucher-large{
+    border: 2px solid #F1F3F4;
+    width: 230px;
+    border-radius: 2px;
+    height: 40px;
+}
+.Redeemlarge{
+    background-color: #33A0FF;
+    border: 2px solid #33A0FF;
+    border-radius: 0px 5px 5px 0px;
+    height: 51px;
+}

@@ -6,7 +6,14 @@ storiesOf("Forms", module)
   /* Email Forms */
   .add("Email", () => <Forms type="Email" />)
   .add("Email Large", () => <Forms type="Email" large />)
-  .add("Email Extra Large", () => <Forms type="Email" extralarge />);
+  .add("Email Extra Large", () => <Forms type="Email" extralarge />)
+  /*
+   *
+   *
+   *
+   * Voucher Buttons */
+  .add("Voucher", () => <Forms type="Voucher" label="Redeem" />)
+  .add("Voucher Large", () => <Forms type="Voucher" label="Redeem" large />);
 //
 //
 //end
