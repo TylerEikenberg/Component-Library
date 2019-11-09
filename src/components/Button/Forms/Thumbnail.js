@@ -33,7 +33,12 @@ class Thumbnail extends Component {
           <div className="details-div-border">
             <h1></h1>
             <img></img>
-            <h3></h3>
+            <h4 className="info-title-smallitem">
+              Beats Solo 2 On Ear Headphones - Black
+            </h4>
+            <img className="info-rating-smallitem" src={stars}></img>
+            <h3 className="info-real-price-smallitem">$499</h3>
+            <h3 className="info-old-price-smallitem"> $599</h3>
           </div>
         </div>
       );
