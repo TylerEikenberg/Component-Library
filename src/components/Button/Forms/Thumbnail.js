@@ -4,6 +4,7 @@ import laptopimg from "../assets/laptop.svg";
 import stars from "../assets/stars.svg";
 import headphones from "../assets/headphones.svg";
 import hot from "../assets/hot.svg";
+import Button from "../Button";
 
 class Thumbnail extends Component {
   constructor(props) {
@@ -56,6 +57,20 @@ class Thumbnail extends Component {
                 nunc leifend laorevtr istique et congue. Vivamus adipiscin
                 vulputate g nisl ut dolor ...
               </p>
+              <div className="inline-buttons-container">
+                <Button
+                  className="inline-cart-button"
+                  label="Add To Cart"
+                  type="cart"
+                />
+              </div>
+              <div className="inline-buttons-container-heart">
+                <Button
+                  className="inline-heart-button"
+                  type="favorites-notext"
+                  notext
+                />
+              </div>
             </div>
           </div>
         </div>

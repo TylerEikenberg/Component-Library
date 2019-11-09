@@ -400,3 +400,18 @@
     font-weight: lighter;
     font-size: 14px;
 }
+.inline-buttons-container{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 110%;
+}
+.inline-buttons-container-heart{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 110%;
+    left: 25%;
+}
