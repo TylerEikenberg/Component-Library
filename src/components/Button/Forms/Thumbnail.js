@@ -39,19 +39,24 @@ class Thumbnail extends Component {
             </h2>
             <div className="inline-item-upper-details">
               <img className="info-rating-smallitem" src={stars}></img>
-              <h4 className="inline-reviews">0 reviews</h4>
+              <h1 className="inline-reviews">0 reviews</h1>
               <a className="inline-reviews-submit" href="#">
                 Submit a review
               </a>
+              <div className="inline-horizontal-line"></div>
             </div>
-            <h2 className="inline-real-price">$499</h2>
-            <h2 className="inline-old-price">$599</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              aliquid perferendis culpa sunt illum ipsum beatae! Dolor
-              voluptatibus, accusantium mollitia adipisci consectetur laboriosam
-              inventore pariatur eaque ullam reprehenderit tempora impedit.
-            </p>
+            <div className="inline-prices">
+              <h2 className="inline-real-price">$499</h2>
+              <h2 className="inline-old-price">$599</h2>
+            </div>
+            <div className="inline-paragraph-container">
+              <p className="inline-paragraph">
+                Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida
+                et mattis vulputate, tristique ut lectus. Sed et lectus lorem
+                nunc leifend laorevtr istique et congue. Vivamus adipiscin
+                vulputate g nisl ut dolor ...
+              </p>
+            </div>
           </div>
         </div>
       );
