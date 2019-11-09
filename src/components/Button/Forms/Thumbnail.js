@@ -22,6 +22,16 @@ class Thumbnail extends Component {
   };
 
   render() {
+    /*
+
+
+
+    
+      OPAQUE THUMBNAIL  
+
+
+
+    */
     if (this.props.opaquebg) {
       return (
         <div className="thumbnail-container-opaque">
@@ -53,6 +63,45 @@ class Thumbnail extends Component {
         </div>
       );
     }
+
+    /*
+
+
+
+    
+      STRETCHED THUMBNAIL  
+
+
+
+    */
+    if (this.props.stretch) {
+      return (
+        <div className="thumbnail-container-stretch">
+          <div className="image-container">
+            <img className="item-container" src={laptopimg}></img>
+          </div>
+          <div className="info-container">
+            <h4 className="info-title-stretch">Apple MacBook Pro</h4>
+            <img className="info-rating-stretch" src={stars}></img>
+            <div className="price-container">
+              <h3 className="info-real-price-stretch">$300</h3>
+              <h3 className="info-old-price-stretch"> $300</h3>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    /*
+
+
+
+
+      DEFAULT THUMBNAIL  
+
+
+
+    */
     return (
       <div className="thumbnail-container">
         <div

@@ -10,11 +10,12 @@
 .counter-text{
     color: black;
 }
-.counter-button{
+.counter-button,.counter-button:focus{
     background-color: rgba(246, 247, 248, 0.762);
     border: none;
     height: 60px;
     color: #33A0FF;
     font-size: 20px;
-    
+    outline: none;
 }
+

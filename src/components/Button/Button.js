@@ -29,8 +29,20 @@ const Button = props => {
   if (props.notext) {
     classList += ` button-notext`;
   }
-  if (props.colorless) {
-    classList += ` button-colorless`;
+  if (props.colorless && props.type === "primary") {
+    classList += ` button-colorless-primary`;
+  }
+  if (props.colorless && props.type === "danger") {
+    classList += ` button-colorless-danger`;
+  }
+  if (props.colorless && props.type === "warning") {
+    classList += ` button-colorless-warning`;
+  }
+  if (props.colorless && props.type === "success") {
+    classList += ` button-colorless-success`;
+  }
+  if (props.colorless && props.type === "default") {
+    classList += ` button-colorless-default`;
   }
 
   return <button className={classList}>{props.label}</button>;

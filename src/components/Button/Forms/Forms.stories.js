@@ -55,7 +55,8 @@ storiesOf("Forms", module)
   .add("Thumbnail", () => <Thumbnail type="Thumbnail" />)
   .add("Thumbnail Opaque Background", () => (
     <Thumbnail type="Thumbnail" opaquebg />
-  ));
+  ))
+  .add("Thumbnail Stretch", () => <Thumbnail type="Thumbnail" stretch />);
 //
 //
 //end

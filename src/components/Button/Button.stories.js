@@ -95,9 +95,11 @@ storiesOf("Button", module)
   /* Default Buttons */
   .add("Default", () => <Button label="Do Something" />)
   .add("Large Default", () => <Button label="Do Something" large />)
-  .add("Default Border", () => <Button label="Do Something" colorless />)
+  .add("Default Border", () => (
+    <Button label="Do Something" type="default" colorless />
+  ))
   .add("Default Border Large", () => (
-    <Button label="Do Something" colorless large />
+    <Button label="Do Something" type="default" colorless large />
   ))
   .add("Default Opaque", () => (
     <Button label="Do Something" type="default-opacity" />
