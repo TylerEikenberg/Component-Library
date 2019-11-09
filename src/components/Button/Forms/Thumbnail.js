@@ -3,6 +3,7 @@ import "./Thumbnail.css";
 import laptopimg from "../assets/laptop.svg";
 import stars from "../assets/stars.svg";
 import headphones from "../assets/headphones.svg";
+import hot from "../assets/hot.svg";
 
 class Thumbnail extends Component {
   constructor(props) {
@@ -23,6 +24,39 @@ class Thumbnail extends Component {
   };
 
   render() {
+    if (this.props.inline) {
+      return (
+        <div className="inline-item-container">
+          <div className="inline-item-image-container">
+            <div className="inline-item-image-border">
+              <img className="inline-hot" src={hot}></img>
+              <img className="inline-image" src={laptopimg}></img>
+            </div>
+          </div>
+          <div className="inline-item-details-container">
+            <h2 className="inline-item-title">
+              Beats Solo2 On Ear Headphones - Black
+            </h2>
+            <div className="inline-item-upper-details">
+              <img className="info-rating-smallitem" src={stars}></img>
+              <h4 className="inline-reviews">0 reviews</h4>
+              <a className="inline-reviews-submit" href="#">
+                Submit a review
+              </a>
+            </div>
+            <h2 className="inline-real-price">$499</h2>
+            <h2 className="inline-old-price">$599</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              aliquid perferendis culpa sunt illum ipsum beatae! Dolor
+              voluptatibus, accusantium mollitia adipisci consectetur laboriosam
+              inventore pariatur eaque ullam reprehenderit tempora impedit.
+            </p>
+          </div>
+        </div>
+      );
+    }
+
     if (this.props.smallitem) {
       return (
         <div className="smallitem-container">
