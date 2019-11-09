@@ -222,3 +222,36 @@
     text-decoration: line-through;
     font-size: 16px;
 }
+
+
+.smallitem-container{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 160px;
+    border: 2px solid black;
+}
+.item-div-border{
+    height: 100%;
+    width: 50%;
+    border: 2px solid brown;
+}
+.details-div-border{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+}
+.item-inside-border{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 9%;
+    top: 8%;
+    border: 2px solid rgba(60, 68, 85, 0.064);
+    border-radius: 5px;
+}
+.item-image-style{
+    position: absolute;
+    right: -18%;
+}

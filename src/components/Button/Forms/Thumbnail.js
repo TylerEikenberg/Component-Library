@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Thumbnail.css";
 import laptopimg from "../assets/laptop.svg";
 import stars from "../assets/stars.svg";
+import headphones from "../assets/headphones.svg";
 
 class Thumbnail extends Component {
   constructor(props) {
@@ -22,6 +23,22 @@ class Thumbnail extends Component {
   };
 
   render() {
+    if (this.props.smallitem) {
+      return (
+        <div className="smallitem-container">
+          <div className="item-div-border">
+            <div className="item-inside-border"></div>
+            <img className="item-image-style" src={headphones}></img>
+          </div>
+          <div className="details-div-border">
+            <h1></h1>
+            <img></img>
+            <h3></h3>
+          </div>
+        </div>
+      );
+    }
+
     /*
 
 
