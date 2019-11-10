@@ -3,6 +3,7 @@ import { storiesOf } from "@storybook/react";
 import Forms from "./Forms";
 import Counter from "./Counter";
 import Thumbnail from "./Thumbnail";
+import Checkbox from "./Checkbox/Checkbox";
 
 storiesOf("Forms", module)
   /* Email Forms */
@@ -21,9 +22,11 @@ storiesOf("Forms", module)
    *
    *
    * Check Boxes */
-  .add("Checkbox", () => <Forms type="Checkbox" />)
-  .add("Checkbox Label", () => <Forms type="Checkbox" label="Label" />)
-  .add("Checkbox Blue", () => <Forms type="Checkbox" blue />)
+  .add("Checkbox", () => <Checkbox type="Checkbox" default />)
+  .add("Checkbox Label", () => (
+    <Checkbox type="Checkbox" label="Label" defaultText />
+  ))
+  .add("Checkbox Blue", () => <Checkbox type="Checkbox" blue />)
   /*
    *
    *

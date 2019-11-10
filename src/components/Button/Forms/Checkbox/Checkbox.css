@@ -1,0 +1,54 @@
+.default-check{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.default-check-click{
+    left: -2px;
+    position: absolute;
+    height: 16px;
+    width: 18px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.check{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 55%;
+}
+.check-text{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 250px;
+    left: 30px;
+    bottom: -15px;
+}
+
+.blue-check{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #33A0FF;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0);
+}
+.blue-check-click{
+    left: -2px;
+    position: absolute;
+    height: 16px;
+    width: 18px;
+    border: 2px solid #33A0FF;
+    border-radius: 3px;
+    background-color: #33A0FF;
+    color: white;
+    font-family: sans-serif;
+}
