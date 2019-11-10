@@ -267,7 +267,6 @@
 .info-rating-smallitem{
     position: absolute;
     top: 35%;
-    left: 10%;
 }
 .info-real-price-smallitem{
     position: absolute;
@@ -414,4 +413,5 @@
     flex-direction: row;
     top: 110%;
     left: 25%;
+    
 }
