@@ -6,6 +6,9 @@ These components were all replicated from an __Adobe XD__ mockup.
 
 
 ![image](assets/storybook1.jpg)
+![image](assets/storybook2.jpg)
+![image](assets/storybook3.jpg)
+![image](assets/storybook4.jpg)
 
 You can view my component library by going to [this __Netlify__ page](https://stupefied-wescoff-981e2b.netlify.com/?path=/story/button--primary).
 
