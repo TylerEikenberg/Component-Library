@@ -1,31 +1,12 @@
-<<<<<<< HEAD
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# My First Component Library
+# Component Library
 
-We have provided the starter code for you. From here, you'll be creating your very first component library with Storybook!
+The goal of this project was to create a reusable library of React components using Storybook.
 
-## Prerequisites
-
-- Intro to React & React Components
-- Storybook
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Fulfill the listed requirements.
-
-## Requirements
-
-Follow along as we create a new component library with different styles of buttons.
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
-=======
-# Component-Library
->>>>>>> b1e96fc94256d9f03d7bf117aefda7687172e8b9
+1.  If you'd like to use these components you can install them from NPM.
+```
+npm i tyler-eikenberg-components
+```
